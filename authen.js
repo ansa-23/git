@@ -21,7 +21,7 @@ async function signup(e){
 
             return
         }
-        const {data,error} = await supa.auth.signup({
+        const {data,error} = await supa.auth.signUp({
              email: mail.value,
              password: password.value,
               options: {
