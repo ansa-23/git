@@ -13,6 +13,7 @@ async function  fetch(){
     }catch(err){
     console.log(err);
 }
+lo
    
     
 }
